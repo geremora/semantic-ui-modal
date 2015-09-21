@@ -20,12 +20,12 @@ Package.on_use(function(api) {
    * package.
    */
   api.use("templating", "client");
-  api.use("semantic:ui-css@1.0.0 || 2.0.0", "client");
+ // api.use("semantic:ui-css@1.0.0 || 2.0.0", "client");
 
   api.add_files([
     "semantic-ui-modal.html",
     "semantic-ui-modal.js",
-    "semantic-ui-modal.css",
+  //  "semantic-ui-modal.css",
   ], "client");
 
   /*
